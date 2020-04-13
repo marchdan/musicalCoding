@@ -21,11 +21,11 @@ if __name__ == "__main__":
 	bottom = "}"
 
 
-	head = "\t\\header{\n"
-	head += '\t\ttitle = "{}"\n'.format(inputs[1].strip().rstrip('.txt'))
-	head += '\t\tsubtitle = "{}"\n'.format(time_string)
-	head += '\t\tcomposer = "Daniel Ackermans"\n'
-	head += '\t}\n'
+	head = "\\header{\n"
+	head += '\ttitle = "{}"\n'.format(inputs[1].strip().replace('.txt', ''))
+	head += '\tsubtitle = "{}"\n'.format(time_string)
+	head += '\tcomposer = "Daniel Ackermans"\n'
+	head += '}\n'
 
 	filename = "inputs/" + inputs[1].strip()
 
