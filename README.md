@@ -12,20 +12,25 @@ Workshop written by: Daniel Ackermans
 
 ## Resources
 > lilypond website:
+
 	* https://lilypond.org/
 
 > Notation reference: 
+
 	* http://lilypond.org/doc/v2.18/Documentation/notation/index
 
 > Software install:
+
 	* https://lilypond.org/download.html
 
 > Introduction presentation:
+
 	* https://docs.google.com/presentation/d/1ApDk0ZIGnUFnnFvzJq62N0Midt6pBkWutzscDccvt0k/edit?usp=sharing
 
 ## Using the provided code:
 
 > producer.py:
+
 	* Inputs: 
 		* Desired key of piece
 		* output filename (no ending, i.e "outfile")
@@ -35,6 +40,7 @@ Workshop written by: Daniel Ackermans
 		* music.py -> python3 music.py outfile{key_type}.txt key key_type treble 4/4 120 > lily/outfile.ly
 
 > music.py:
+
 	* Inputs: 
 		* Input file (foo.txt)
 		* key signature (a, ab, a#, etc.)
