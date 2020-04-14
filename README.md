@@ -53,6 +53,7 @@ Workshop written by: Daniel Ackermans
 		* Properly formatted lilypond file
 
 > Input files:
+
 	* Contain lines containing the follow information:
 		* note octave duration
 
@@ -61,6 +62,7 @@ Workshop written by: Daniel Ackermans
 		* duration = 2(half note), 4 (quarter note), 8 (eighth note), etc.
 
 > lilypond files: (have the following basic structure)
+
 	\version "#.#.#"
 	\header {
 		title = ""
@@ -68,7 +70,6 @@ Workshop written by: Daniel Ackermans
 		composer = ""
 		instrument = ""
 	}
-
 	\score {
 		\new Staff{
 			\key "key" \"mode"
