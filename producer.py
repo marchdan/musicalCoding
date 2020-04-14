@@ -171,7 +171,7 @@ def start(notes):
 
 if __name__ == "__main__":
 
-	inputs = sys.argv
+	inputs = sys.argv ## [producer.py <key> <output filename>]
 	if(len(inputs) != 3):
 		print("ERROR: Invalid input!")
 		print("USAGE: python3 producer.py <key> <goal filename>")
@@ -241,6 +241,6 @@ if __name__ == "__main__":
 
 		os.system('python3 music.py {}Major.txt {} major treble 4/4 120 > lily/{}Major.ly'.format(infile, key, infile))
 		os.system('python3 music.py {}Minor.txt {} minor treble 4/4 120 > lily/{}Minor.ly'.format(infile, convertKey(key), infile))
-		os.system('lilypond lily/{}Major.ly'.format(infile))
-		os.system('lilypond lily/{}Minor.ly'.format(infile))
+		##os.system('lilypond lily/{}Major.ly'.format(infile))
+		##os.system('lilypond lily/{}Minor.ly'.format(infile))
 
