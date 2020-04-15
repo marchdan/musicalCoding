@@ -90,3 +90,4 @@ Workshop written by: Daniel Ackermans
 		* bes = Bb-3 quarter note (number indicates all following notes to be same duration until otherwise specified)
 		* d' = D-4 
 		* fis'2 = F#-4 half note
+	* See here for more details: https://lilypond.org/text-input.html
